@@ -20,7 +20,7 @@ int main() {
 
     // C++ does not check if the file opening was successful or failed, hence does not throw an exception.
     ifstream fileToBeRead;
-    fileToBeRead.open(userIn + ".txt");
+    fileToBeRead.open(string(userIn));
 
     // Reading lines if the file was successfully opened
     if (fileToBeRead.is_open()) {
