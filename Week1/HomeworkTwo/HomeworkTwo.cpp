@@ -15,7 +15,7 @@ int main() {
     string userIn;
 
     // Taking input from the user and assigning it to a variable.
-    cout << "Enter a file name: " << endl << endl;
+    cout << "Enter the name of a file to read from: ";
     cin >> userIn;
 
     // C++ does not check if the file opening was successful or failed, hence does not throw an exception.
@@ -26,13 +26,11 @@ int main() {
     if (fileToBeRead.is_open()) {
         while (getline(fileToBeRead, line)) {
             // Check if the line starts with "//" or "#"
-            if (line.substr(0, 2) == "//" || line.substr(0, 1) == "#" || line.size() == 0) {
-                cout << "Line had // or # characters" << endl;
+            if (line.substr(0, 2) == "//" || line.substr(0, 1) == "#") {
                 num[0]++;
             } else {
                 num[1]++;
                 num[0]++;
-                cout << line << '\n';
 
                 // Update statistics for the line of maximum length
                 if (line.length() > str[1].length()) {
