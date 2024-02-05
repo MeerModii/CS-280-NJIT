@@ -10,13 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3349eaf-7947-4f1c-8d34-2f8731bc6b87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CS-280 NJIT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkOne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/HomeworkOne.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkOne.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkOne.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/HomeworkTwo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/HomeworkTwo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case1.correct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case2.correct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case3.correct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case4.correct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case5.correct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case6.correct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/build/Debug/HomeworkTwo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/build/Debug/outDebug.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/local.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/output/HomeworkTwo.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/Test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/build/Debug/Test.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1/build/Debug/outDebug.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +112,8 @@
       <workItem from="1705863269620" duration="591000" />
       <workItem from="1706559586841" duration="1516000" />
       <workItem from="1706562549944" duration="920000" />
+      <workItem from="1706636451870" duration="494000" />
+      <workItem from="1706721835601" duration="598000" />
     </task>
     <servers />
   </component>

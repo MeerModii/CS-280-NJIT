@@ -15,7 +15,7 @@ int main() {
     string userIn;
 
     // Taking input from the user and assigning it to a variable.
-    cout << "Enter the name of a file to read from: ";
+    cout << "Enter the name of a file to read from: \n" << endl;
     cin >> userIn;
 
     // C++ does not check if the file opening was successful or failed, hence does not throw an exception.
@@ -39,7 +39,7 @@ int main() {
 
                 istringstream iss(line);
 
-                 while (iss >> line) {
+                while (iss >> line) {
                     // Update statistics for the word of maximum length
                     if (line.length() > str[0].length()) {
                         str[0] = line;
