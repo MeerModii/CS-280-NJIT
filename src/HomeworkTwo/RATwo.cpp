@@ -13,6 +13,7 @@ int main() {
     // Variable declarations
     string line;
     string userIn;
+    string word;
 
     // Taking input from the user and assigning it to a variable.
     cout << "Enter the name of a file to read from: \n" << endl;
@@ -39,10 +40,11 @@ int main() {
 
                 istringstream iss(line);
 
-                while (iss >> line) {
+
+                while (iss >> word) {
                     // Update statistics for the word of maximum length
-                    if (line.length() > str[0].length()) {
-                        str[0] = line;
+                    if (word.length() > str[0].length()) {
+                        str[0] = word;
                     }
 
                     // Increment number of words

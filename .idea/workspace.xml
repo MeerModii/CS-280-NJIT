@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,36 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3349eaf-7947-4f1c-8d34-2f8731bc6b87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/allspaces.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/cantopen.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/empty.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/infile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/infile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/infile3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/infile4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/infile5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/intsnames.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/intsonly.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/namesonly.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA 3 Test Cases/nofile.correct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeworkThree/RA3.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkOne.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkOne.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/HomeworkTwo.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/HomeworkTwo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case1.correct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case2.correct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case3.correct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case4.correct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case5.correct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/Test Cases (vocareum)/case6.correct" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/build/Debug/HomeworkTwo.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/build/Debug/outDebug.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/infile6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/local.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/HomeworkTwo/output/HomeworkTwo.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Test.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/build/Debug/Test.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/build/Debug/outDebug.exe" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,36 +44,42 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2bHCOAsJLx8K9y4i6stAheryCNR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.HomeworkTwo.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/meer1/OneDrive/CS-280 NJIT&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "C/C++ File.HomeworkTwo.cpp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/meer1/OneDrive/CS-280 NJIT/src/HomeworkThree/RA3.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="HomeworkTwo.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS-280 NJIT" TARGET_NAME="HomeworkTwo.cpp" CONFIG_NAME="HomeworkTwo.cpp">
-      <option name="sourceFile" value="Week1\HomeworkTwo\HomeworkTwo.cpp" />
+    <configuration name="HomeworkTwo.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS-280 NJIT" TARGET_NAME="RA3.cpp - MinGW" CONFIG_NAME="HomeworkTwo.cpp">
+      <option name="sourceFile" value="C:\Users\meer1\OneDrive\CS-280 NJIT\src\HomeworkThree\RA3.cpp" />
+      <option name="toolchainName" value="MinGW" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -114,10 +105,15 @@
       <workItem from="1706562549944" duration="920000" />
       <workItem from="1706636451870" duration="494000" />
       <workItem from="1706721835601" duration="598000" />
+      <workItem from="1707323351742" duration="402000" />
+      <workItem from="1707323765266" duration="298000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

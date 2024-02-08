@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/meer1/OneDrive/CS-280 NJIT/Week1/HomeworkTwo",
-      "program": "c:/Users/meer1/OneDrive/CS-280 NJIT/Week1/HomeworkTwo/build/Debug/outDebug",
+      "cwd": "c:/Users/meer1/OneDrive/CS-280 NJIT/src/HomeworkThree",
+      "program": "c:/Users/meer1/OneDrive/CS-280 NJIT/src/HomeworkThree/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
