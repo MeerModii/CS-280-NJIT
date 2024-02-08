@@ -6,14 +6,17 @@
 
 using namespace std;
 
-bool isStringEmptyorWhiteSpace(const string line){
-    for(char ch : line){
-        if(!isspace(ch)){
-            return false;
-        }
+bool isStringEmptyOrWhiteSpace(const std::string& line) {
+
+    // Check if the string is empty
+    if (line.empty()) {
+        return true;
     }
-    return true;
+    else{
+        return false;
+    }
 }
+
 
 int main(int argc, char *argv[]) {
     int numLines = 0;
@@ -42,10 +45,8 @@ int main(int argc, char *argv[]) {
     string line;
     while (getline(inputFile, line)) {
         numLines++;
-
-        if (line.empty()) {
+        if (!isStringEmptyOrWhiteSpace(line)) {
             numNonBlankLines++;
-            continue;
         }
 
         istringstream iss(line);
@@ -53,30 +54,27 @@ int main(int argc, char *argv[]) {
         while (iss >> word) {
             numWords++;
 
-            // Counting words less than or equal to 5 characters
             if (word.length() <= 5) {
                 numWordsLessThanOrEqualTo5++;
             }
-                // Counting words greater than 5 characters
             else {
                 numWordsGreaterThan5++;
             }
 
-            // Checking for special names
             if (isalpha(word[0])) {
                 bool isSpecialName = true;
                 for (char ch : word) {
-                    if (!isalpha(ch)) {
+                    if (!isalnum(ch) && ch != '_' && ch != '@') {
                         isSpecialName = false;
                         break;
                     }
                 }
                 if (isSpecialName) {
+                    //cout << word << endl;
                     numSpecialNames++;
                 }
             }
 
-            // Checking for unsigned integers
             bool isUnsignedInteger = true;
             for (char ch : word) {
                 if (!isdigit(ch)) {
@@ -92,13 +90,12 @@ int main(int argc, char *argv[]) {
 
     inputFile.close();
 
-    // Print out the requested statistics
     if(numLines == 0){
         cout << "File is empty." << endl;
     }
     else{
         cout << "Total Number of Lines: " << numLines << endl;
-        cout << "Number of non-blank lines: " << numNonBlankLines+1 << endl;
+        cout << "Number of non-blank lines: " << numNonBlankLines << endl;
         cout << "Number of Words: " << numWords << endl;
         cout << "Number of Integers: " << numIntegers << endl;
         cout << "Number of Names: " << numSpecialNames << endl;
