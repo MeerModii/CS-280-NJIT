@@ -63,5 +63,6 @@
     "random": "cpp",
     "fstream": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
